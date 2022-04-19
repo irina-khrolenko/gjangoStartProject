@@ -1,10 +1,12 @@
 h1 a {
-    color: #FCA205;
+    color: #58908a;
     font-family: 'Comfortaa';
 }
 
 body {
     padding: 0 50px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .page-header {
@@ -19,23 +21,42 @@ body {
     text-decoration: none;
 }
 
-.post_list {
-    margin: 20px 0;
+.content {
+    font-size: 16pt;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.date {
+    color: #828282;
+    font-size: 10pt;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
     background-color: cornsilk;
     padding: 30px;
     border-radius: 15px;
 }
 
-.post_list h1 a{
+.post h1 a, .post h1 a:visited {
     color: #58908a;
-    font-size: 34pt;
-}
-
-.post_list .published_date {
-    font-size: 10pt;
-    color: darkgray;
-}
-
-.post_list .post_text {
-    font-size: 16pt;
+    font-size: 32pt;
 }
